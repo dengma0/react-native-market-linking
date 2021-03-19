@@ -1,11 +1,13 @@
 # react-native-market-comment
 ### 打开ios和安卓各大应用市场
 #### Installing
-`npm install react-native-market-comment --save`
+`npm install react-native-market-linking --save`
+`yarn add react-native-market-linking`
 #### Lingking Native Dependencies
-`react-naitve link react-native-market-comment`
+RN version < 0.6.0
+`react-naitve link react-native-market-linking`
 #### Usage
-`import openAppStoreToComment from 'react-native-market-comment';`
+`import openAppStoreToComment from 'react-native-market-linking';`
 ```
 didClickCommentButton = () => {
   openAppStoreToComment();
