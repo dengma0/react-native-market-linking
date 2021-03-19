@@ -1,5 +1,5 @@
 # react-native-market-comment
-### 打开应用市场进行
+### 打开ios和安卓各大应用市场
 #### Installing
 `npm install react-native-market-comment --save`
 #### Lingking Native Dependencies
