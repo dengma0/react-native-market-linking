@@ -4,7 +4,7 @@ import {
   NativeModules
 } from 'react-native';
 
-const RNMarketOpenModule = NativeModules.RNMarketOpenModule;
+const RNMarketCommentModule = NativeModules.RNMarketCommentModule;
 
 export function openAppStore (appId = '') {
   if (Platform.OS === 'ios') {
@@ -13,6 +13,6 @@ export function openAppStore (appId = '') {
     return;
   }
   if (Platform.OS === 'android') {
-    RNMarketOpenModule.show();
+    RNMarketCommentModule.show();
   }
 }

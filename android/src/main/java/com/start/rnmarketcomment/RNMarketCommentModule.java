@@ -1,4 +1,4 @@
-package com.eaffy.rnmarketcomment;
+package com.start.rnmarketcomment;
 
 import android.net.Uri;
 import android.content.pm.PackageManager;
@@ -12,18 +12,18 @@ import com.facebook.react.bridge.ReactMethod;
 
 import java.util.Map;
 
-public class RNMarketOpenModule extends ReactContextBaseJavaModule {
+public class RNMarketCommentModule extends ReactContextBaseJavaModule {
 
     ReactApplicationContext reactContext;
 
-    public RNMarketOpenModule(ReactApplicationContext reactContext) {
+    public RNMarketCommentModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "RNMarketOpenModule";
+        return "RNMarketCommentModule";
     }
 
     @ReactMethod
