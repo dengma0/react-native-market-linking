@@ -1,0 +1,1 @@
+export function openAppStore(appId?: string): VoidFunction;

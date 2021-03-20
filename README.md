@@ -4,7 +4,7 @@
 `npm install react-native-market-linking --save`
 `yarn add react-native-market-linking`
 #### Lingking Native Dependencies
-RN version < 0.6.0
+##### if your RN Version < 0.6.0
 `react-naitve link react-native-market-linking`
 #### Usage
 `import openAppStoreToComment from 'react-native-market-linking';`

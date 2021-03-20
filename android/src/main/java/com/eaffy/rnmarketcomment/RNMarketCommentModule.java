@@ -12,18 +12,18 @@ import com.facebook.react.bridge.ReactMethod;
 
 import java.util.Map;
 
-public class RNMarketCommentModule extends ReactContextBaseJavaModule {
+public class RNMarketOpenModule extends ReactContextBaseJavaModule {
 
     ReactApplicationContext reactContext;
 
-    public RNMarketCommentModule(ReactApplicationContext reactContext) {
+    public RNMarketOpenModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "RNMarketCommentModule";
+        return "RNMarketOpenModule";
     }
 
     @ReactMethod

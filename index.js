@@ -4,15 +4,15 @@ import {
   NativeModules
 } from 'react-native';
 
-const RNMarketCommentModule = NativeModules.RNMarketCommentModule;
+const RNMarketOpenModule = NativeModules.RNMarketOpenModule;
 
-export default function openAppStoreToComment (appId = 1210643082) {
+export function openAppStore (appId = '') {
   if (Platform.OS === 'ios') {
-    const url = `itms-apps://itunes.apple.com/cn/app/id${appId}?mt=8&action=write-review`;
+    const url = `itms-apps://itunes.apple.com/cn/app/id${appId}?mt=8`;
     Linking.openURL(url).catch(err => console.error('An error occurred', err));
     return;
   }
   if (Platform.OS === 'android') {
-    RNMarketCommentModule.show();
+    RNMarketOpenModule.show();
   }
 }

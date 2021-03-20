@@ -1,26 +1,29 @@
 {
-  "name": "react-native-market-comment",
-  "version": "1.0.2",
-  "description": "iOS: 跳转到应用AppStore添加评论页面；Android: 展示手机上已安装的应用市场，可以到每个市场添加评论",
+  "name": "react-native-market-linking",
+  "version": "0.0.5",
+  "description": "A library to help you open app store",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eaffy/react-native-market-comment.git"
+    "url": "git+https://github.com/dengma0/react-native-market-linking.git"
   },
   "keywords": [
-    "[\"react-native\"",
-    "\"market\"",
-    "\"comment\"",
-    "\"score\"",
-    "\"appstore\"]"
+    "react-native",
+    "ios",
+    "android",
+    "market"
   ],
-  "author": "QiaoYifei",
-  "license": "ISC",
+  "author": "dengmao",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Eaffy/react-native-market-comment/issues"
+    "url": "https://github.com/dengma0/react-native-market-linking/issues"
   },
-  "homepage": "https://github.com/Eaffy/react-native-market-comment#readme"
+  "homepage": "https://github.com/dengma0/react-native-market-linking#readme",
+  "peerDependencies": {
+    "react-native": ">=0.59.0"
+  }
 }
