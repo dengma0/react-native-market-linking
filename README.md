@@ -7,11 +7,11 @@
 ##### if your RN Version < 0.6.0
 `react-naitve link react-native-market-linking`
 #### Usage
-`import openAppStoreToComment from 'react-native-market-linking';`
+`import { openAppStore } from 'react-native-market-linking';`
 ```
-didClickCommentButton = () => {
-  openAppStoreToComment();
+didClickOpenButton = () => {
+  openAppStore();
 }
 ```
 #### API
-* openAppStoreToComment(yourAppIdOnAppStore)
+* openAppStore(yourAppIdOnAppStore)
